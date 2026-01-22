@@ -47,7 +47,7 @@ public class Calculator{
     // method that constructs and returns a string representing a coordinate
     // pair in the format: "(x, y)"
     public String coordinatePair(int x, int y) {
-        return "(" + x + ", " + y + ")";
+        return "(" + x + "," + y + ")";
     }
     // method that determines and returns the result of |num1 - num2|
     public int absoluteValue(int num1, int num2) {
@@ -73,6 +73,6 @@ public class Calculator{
     // "This calculator is a model "+____+" where "+____+" should be filled in
     // with the value stored in the calcModel instance variable."
     public String info() {
-        return "This calculator is a model "+calcModel+" where "+calcModel+" should be filled in with the value stored in the calcModel instance variable.";
+        return "This calculator is a model " + calcModel + " where " + calcModel + " should be filled in with the value stored in the calcModel instance variable.";
     }
 }
